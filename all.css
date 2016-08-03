@@ -1,0 +1,9 @@
+body {background-color:firebrick;}
+h1{font-family:serif; font-size:30pt; color:White}
+h2 {font-family: serif; font-size: 30pt; color:lavender}
+form{color:white}
+p{color:white}
+.myform {
+border: solid 1px #000000;
+}
+

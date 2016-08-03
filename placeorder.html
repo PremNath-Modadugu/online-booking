@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Place order</title>
+<link rel="stylesheet" href="all.css" type="text/css">
+
+</head>
+<body>
+<center><img src="logo.jpg" style="width:300px;height:100px;border:0;"></center>
+<iframe src="navibar.html" style="width:1500px;height:50px;"></iframe>
+
+<center>
+<form action="success.html" method="post">
+<fieldset>
+<br><br><br>
+Full Name:
+<input type="text" name="fname" required>
+<br><br>
+Phone:
+<input type="number" name="phone" required>
+<br><br>
+Select city:
+<select name="city">
+  <option value="Value 1"
+    selected="selected">Delhi</option>
+  <option value="Value 2">Hyderbad</option>
+  <option value="Value 3">Bangalore</option>
+  <option value="Value 4">Chennai</option>
+  <option value="Value 5">Kolkata</option>
+  <option value="Value 6">Vijayawada</option>
+</select>
+<br><br>
+Address:<br>
+<textarea cols="40" rows="10" id="addr" name="addr" required></textarea>
+<br><br>
+Landmark:
+<input type="text" name="landmark" required>
+<br><br><p>
+<input type="submit" value="submit" action="success.html">
+<INPUT type="reset"> </P>
+</fieldset></form></center>
+</body>
+</html>
+
